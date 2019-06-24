@@ -13,7 +13,7 @@
   import Demo from "@/components/demo.vue"
 export default{
   components:{
-    Demo
+    Demo,
   }
 }
 
