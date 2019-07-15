@@ -1,0 +1,31 @@
+
+
+
+.body{
+    .home-swiper{
+        .tu{
+            display: block;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .home-gird-par{
+        margin-top: 10px;
+        .am-flexbox {
+            height: 60px !important;
+            .home-gird{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;       
+                    .home-gird-icon{
+                        width: 30px;
+                        height: 30px;
+                        padding-right: 5px;
+
+                     }
+            }
+         }
+    }
+}

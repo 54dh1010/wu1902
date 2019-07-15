@@ -1,0 +1,110 @@
+
+
+
+.song-par{
+    margin-top: 5px;
+    .song-top{
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+        line-height: 40px;
+        font-size: 16px;
+        color: #8a8a8a;
+        justify-content: center;
+        .one{
+            margin-left:5px;
+            margin-right:5px;
+
+        }
+        .two{
+            color: #000;
+            font-weight: 500;
+        }
+        .ico1{
+            position: relative;
+            right: -50px;
+            height: 20px;
+            width: 20px;
+            background:url(../../../assets/images/icon-songmenu-add.png);
+            background-size: 20px 20px;
+        }
+        .ico2{
+            position: relative;
+            right: -65px;
+            height: 20px;
+            width: 20px;
+            background:url(../../../assets/images/icon-songmenu.png);
+            background-size: 20px 20px;
+
+        }
+    }
+    .addMenu{
+        min-height: 90px;
+        background: #fff;
+        .addMenu-par{     
+            .songmenu-item {
+                display: flex;
+                height: 60px;
+                margin-top: 1px;
+                .left {
+                    flex: 0 0 60px;
+                    background: #e6e6e6;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .logo {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+                .right {
+                    position: relative;
+                    flex: 1;
+                    padding-left: 10px;
+                    .name,
+                    .num {
+                        font-size: 15px;
+                        line-height: 30px;
+                        text-align: left;
+                        padding-left: 15px;
+                    }
+                    .icon-right {
+                        position: absolute;
+                        top: 22px;
+                        right: 15px;
+                        background: url("../../../assets/images/icon-easy-right.png");
+                        background-size: cover;
+                        height: 17px;
+                        width: 17px;
+                    }
+                }
+            }           
+        }
+        .addNew{
+            display: flex;
+            height: 60px;
+            flex-direction: row; 
+            .add-songmenu-wrapper-left {
+                flex: 0 0 60px;
+                background: #e6e6e6;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .add-songmenu-img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            .add-songmenu-wrapper-right {
+                flex: 1;
+                .add-songmenu-text {
+                    line-height: 60px;
+                    text-align: left;
+                    margin-left: 10px;
+                }
+            }
+        }
+             
+    }
+    
+}

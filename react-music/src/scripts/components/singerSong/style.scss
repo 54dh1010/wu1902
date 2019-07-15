@@ -1,0 +1,39 @@
+
+
+.singerSong-par{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;height: 100%;
+    transform: translateX(100%);
+    transition: transform 0.4s inherit;
+    background-color: #fff;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    &.show{
+     transform: translateX(0);
+
+    }
+    .singerSong-top{
+        padding-top:10px;
+        width: 100%;
+        height: 38%;
+        .singerSong-icon{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .singerSong-center{
+       padding: 10px;
+        line-height: 36px;
+        font-weight: 400;
+        font-size: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+    .singerSong-list{
+        flex: 1;
+        overflow: scroll;
+        
+    }
+}
